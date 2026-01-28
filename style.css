@@ -4,9 +4,19 @@ body {
     font-family: "Work Sans", sans-serif;
 }
 
-body header {
+.btn-primary {
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 25px 21px;
+}
+
+header {
     background-color: rgba(255, 144, 14, 0.1);
-    padding-top: 1px;
+    padding: 20px;
 }
 
 nav {
@@ -41,6 +51,13 @@ nav {
     color: #424242;
 }
 
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
 .header-title {
     color: #131313;
     font-weight: 700;
@@ -69,4 +86,36 @@ nav {
 
 .banner img {
     border-radius: 8px;
+}
+
+
+main {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 73px;
+    margin-top: 85px;
+}
+
+.feature-banners {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.feature-title {
+    width: 468px;
+    font-size: 45px;
+}
+
+.feature-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    width: 537px;
 }
